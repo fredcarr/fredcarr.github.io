@@ -69,24 +69,69 @@ body{
 	width:100%;
 	padding: 50px 0 95px 0;
 
+	&#about{
+		h2{
+			margin-bottom: 62px;
+		}
+	}
+
 	&#portfolio{
 		background: $green;
 
 		h2{
 			color: white;
+			margin-bottom: 48px;
 		}
 	}
 
 	.wrapper_inner{
 		width: 1000px;
 		margin: 0 auto;
+		overflow: hidden;
+
+		.col-left{
+			width: 490px;
+			margin-right: 20px;
+			float: left;
+		}
+
+		.col-right{
+			width: 490px;
+			float: left;
+
+			img{
+				width: 150px;
+				float: left;
+				margin-right: 20px;
+				margin-bottom: 20px;
+
+				&.last{
+					margin-right: 0;
+				}
+			}
+		}
 		
 		h2{
 			text-transform:uppercase;
 			color: #524741;
-			font-size: 48px;
+			font-size: 46px;
 			font-weight: bold;
 			text-align: center; 
+		}
+
+		h3{
+			color: #86765c;
+			margin-top: 28px;
+			margin-bottom: 34px;
+			font-size: 34px;
+
+		}
+
+		p{
+			margin-bottom: 12px;
+			line-height: 1.2;
+			font-size: 17px;
+			color: #222;
 		}
 	}
 
