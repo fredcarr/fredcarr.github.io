@@ -77,10 +77,22 @@ body{
 
 	&#portfolio{
 		background: $green;
+		margin-bottom: 75px;
 
 		h2{
 			color: white;
 			margin-bottom: 48px;
+		}
+
+		img{
+			width: 235px;
+			float: left;
+			margin-right: 20px;
+			margin-bottom: 20px;
+
+			&.last{
+				margin-right: 0;
+			}
 		}
 	}
 
