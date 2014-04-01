@@ -77,7 +77,7 @@ body{
 
 	&#portfolio{
 		background: $green;
-		margin-bottom: 75px;
+		padding-bottom: 75px;
 
 		h2{
 			color: white;
@@ -93,6 +93,16 @@ body{
 			&.last{
 				margin-right: 0;
 			}
+		}
+	}
+
+	&#contact{
+		padding: 0;
+
+		img{
+			width: 575px;
+			display: block;
+			float: left;
 		}
 	}
 

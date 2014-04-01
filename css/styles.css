@@ -146,7 +146,7 @@ body {
 /* line 78, ../sass/_global.scss */
 .wrapper#portfolio {
   background: #5b866b;
-  margin-bottom: 75px;
+  padding-bottom: 75px;
 }
 /* line 82, ../sass/_global.scss */
 .wrapper#portfolio h2 {
@@ -165,34 +165,44 @@ body {
   margin-right: 0;
 }
 /* line 99, ../sass/_global.scss */
+.wrapper#contact {
+  padding: 0;
+}
+/* line 102, ../sass/_global.scss */
+.wrapper#contact img {
+  width: 575px;
+  display: block;
+  float: left;
+}
+/* line 109, ../sass/_global.scss */
 .wrapper .wrapper_inner {
   width: 1000px;
   margin: 0 auto;
   overflow: hidden;
 }
-/* line 104, ../sass/_global.scss */
+/* line 114, ../sass/_global.scss */
 .wrapper .wrapper_inner .col-left {
   width: 490px;
   margin-right: 20px;
   float: left;
 }
-/* line 110, ../sass/_global.scss */
+/* line 120, ../sass/_global.scss */
 .wrapper .wrapper_inner .col-right {
   width: 490px;
   float: left;
 }
-/* line 114, ../sass/_global.scss */
+/* line 124, ../sass/_global.scss */
 .wrapper .wrapper_inner .col-right img {
   width: 150px;
   float: left;
   margin-right: 20px;
   margin-bottom: 20px;
 }
-/* line 120, ../sass/_global.scss */
+/* line 130, ../sass/_global.scss */
 .wrapper .wrapper_inner .col-right img.last {
   margin-right: 0;
 }
-/* line 126, ../sass/_global.scss */
+/* line 136, ../sass/_global.scss */
 .wrapper .wrapper_inner h2 {
   text-transform: uppercase;
   color: #524741;
@@ -200,14 +210,14 @@ body {
   font-weight: bold;
   text-align: center;
 }
-/* line 134, ../sass/_global.scss */
+/* line 144, ../sass/_global.scss */
 .wrapper .wrapper_inner h3 {
   color: #86765c;
   margin-top: 28px;
   margin-bottom: 34px;
   font-size: 34px;
 }
-/* line 142, ../sass/_global.scss */
+/* line 152, ../sass/_global.scss */
 .wrapper .wrapper_inner p {
   margin-bottom: 12px;
   line-height: 1.2;
